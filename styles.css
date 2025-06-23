@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url('https://t3.ftcdn.net/jpg/04/96/10/62/360_F_496106275_1wMp561UBy16AZ1hAn4SdPqYBNdJvgsN.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  color: #ff0000;
+}
+
+#container {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+#post-list-section, #post-detail-section {
+  width: 50%;
+  background: #e4dcdc;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#post-list div {
+  padding: 10px;
+  border-bottom: 1px solid #45458d;
+  cursor: pointer;
+}
+
+#post-list div:hover {
+  background-color: #257639;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea, form button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #0e0bc1;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #007BFF;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+#new-post-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
